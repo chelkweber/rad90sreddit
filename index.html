@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Rich Man's Reddit</title>
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Freckle+Face" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body ng-app="redditMod" ng-controller="redditCtrl">
+		<header>
+			<h1>Rad 90s Reddit</h1>
+		</header>
+		
+		<div id="feed">
+			<post ng-repeat="post in feed"></post>
+		</div>
+		
+		
+<!--	Script tags	-->
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+		<script src="script/app.js"></script>
+		<script src="script/controller.js"></script>
+		<script src="script/service.js"></script>
+		<script src="script/directive.js"></script>
+		
+	</body>
+</html>

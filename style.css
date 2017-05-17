@@ -1,0 +1,71 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background-image: url(imgs/background.jpg);
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 90%;
+	background-color: rgba(15, 112, 183, 1);
+	text-align: center;
+	margin: 2% 5%;
+	border-radius: 15px;
+	position: fixed;
+	font-family: 'Audiowide', cursive;
+	font-size: 20px;
+	z-index: 99;
+}
+
+#feed {
+	width: 90%;
+	margin: 0 auto;
+	height: 70vh;
+	overflow: scroll;
+	padding: 12% 0%;
+}
+
+.post {
+	background-color: rgba(227, 30, 135, 1);
+	border-radius: 15px;
+	margin: 2% 0%;
+	display: inline-block;
+	width: 100%;
+}
+
+.post .figure {
+	width: 30%;
+	height: auto;
+	padding: 1%;
+	display: inline-block;
+}
+
+.post .figure img {
+	width: 90%;
+	height: auto;
+	opacity: 1;
+	transition: .3s ease-in-out;
+	border-radius: 15px;
+}
+
+.post .figure:hover img {
+	opacity: .5;
+}
+
+.post .caption {
+	width: 50%;
+	padding: 1%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.post h2 {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.post h3 {
+	font-weight: normal;
+	font-size: 14px;
+	
+}
